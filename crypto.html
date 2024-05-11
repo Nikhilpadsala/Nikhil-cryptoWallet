@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Wallet</title>
+    <link rel="stylesheet" href="crypto.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crypto Wallet</h1>
+        <div class="balance">
+            <h2>Balance:</h2>
+            <p id="balance">0 BTC</p>
+        </div>
+        <div class="transaction">
+            <h2>Make a Transaction</h2>
+            <input type="number" id="amount" placeholder="Enter Amount">
+            <input type="text" id="recipient" placeholder="Recipient Address">
+            <button onclick="makeTransaction()">Send</button>
+        </div>
+    </div>
+    <script src="crypto.js"></script>
+</body>
+</html>
